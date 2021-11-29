@@ -1,0 +1,135 @@
+html {
+  background-color: #262026;
+}
+
+.flexDiv {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.backg {
+  background-image: url("../images/calculator.jpg");
+  background-size: 150%;
+  border-radius: 5px;
+  display: grid;
+  grid-template:
+    "res res res res" 100px
+    "dv prc pm ac" 100px
+    "mltp svn eght nine" 100px
+    "sbtr four five six" 100px
+    "addtn one two three" 100px
+    "eql null null point" 100px;
+  grid-gap: 5px;
+  align-items: center;
+  justify-items: center;
+  padding: 10px 10px 10px 10px;
+  font-family: Ubuntu;
+}
+
+.result {
+  grid-area: res;
+  text-align: right;
+  width: 605px;
+  font-size: 50px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+.pinkB,
+.purpleB {
+  font-size: 50px;
+  padding: 15px 40px;
+  width: 150px;
+  border-radius: 5px;
+  opacity: 0.7;
+}
+
+.pinkB {
+  background-color: pink;
+  color: purple;
+}
+
+.purpleB {
+  background-color: purple;
+  color: pink;
+}
+
+#buttonDivision {
+  grid-area: dv;
+}
+
+#buttonPercentage {
+  grid-area: prc;
+}
+
+#buttonPlusorminus {
+  grid-area: pm;
+}
+
+#buttonAC {
+  grid-area: ac;
+}
+
+#button7 {
+  grid-area: svn;
+}
+
+#button8 {
+  grid-area: eght;
+}
+
+#button9 {
+  grid-area: nine;
+}
+
+#buttonMultiplication {
+  grid-area: mltp;
+}
+
+#button4 {
+  grid-area: four;
+}
+
+#button5 {
+  grid-area: five;
+}
+
+#button6 {
+  grid-area: six;
+}
+
+#buttonSubtraction {
+  grid-area: sbtr;
+}
+
+#button1 {
+  grid-area: one;
+}
+
+#button2 {
+  grid-area: two;
+}
+
+#button3 {
+  grid-area: three;
+}
+
+#buttonAddition {
+  grid-area: addtn;
+}
+
+#button0 {
+  grid-area: null;
+  width: 310px;
+}
+
+#buttonPoint {
+  grid-area: point;
+}
+
+#buttonEqual {
+  grid-area: eql;
+}
